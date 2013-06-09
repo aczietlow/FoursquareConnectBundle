@@ -6,7 +6,6 @@ $url = '';
 $url = 'https://foursquare.com/oauth2/authenticate?';
 $url .= 'client_id=' . CLIENT_ID;
 $url .= '&response_type=code';
-// $url .= '&redirect_uri=http://4sq.hackaugusta.com/FoursquareConnect/users/authenticate.php';
 $url .= '&redirect_uri=http://4sq.hackaugusta.com/FoursquareConnect/router.php';
 
 ?>
